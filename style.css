@@ -1,0 +1,113 @@
+body {
+
+    background-size:cover;
+    background-color: powderblue;
+    color:blue;
+    text-align:center;
+    margin: 10;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 10px;
+     }    
+      main {
+        position: relative;
+        background: white;
+        height: 200px;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
+      }
+      
+      main div {
+        background: black;
+        color: white;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
+      }
+    
+    
+    
+    h1{
+        font-size: 80px;
+        padding-top: 30px;
+        text-decoration-line:underline;
+        text-shadow: 2px 2px;
+        color: rgb(179, 38, 189);
+                
+    }
+    
+    p{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10;
+        color:blue;
+        opacity: 0.8;
+    }
+
+    span{
+        color:red;
+    }
+    
+    ul{
+        list-style: none; /*retiro os bollets que apareciam*/
+        margin-top: 20px;
+        
+    }
+    
+    li{
+        display: inline;
+    }
+    
+    ul li a {
+    
+        color:black;
+        text-decoration:none;
+        font-size: 15px;
+        padding: 5px;
+        
+    
+    }
+
+    
+    .segundo-paragrafo{
+    
+        margin-bottom: 05px;
+    }
+    
+    .botao{
+        text-decoration: none;
+        background-color: #32eb6f;
+        padding: 10px 15px;
+        color: white;
+    }
+    .botao:hover{
+    color:brown;
+    opacity: 0.7;    
+    }
+    .imagem-container {
+
+        animation: slidein 10s ease-in-out forwards;
+      }
+      
+      .imagem-computador {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       }
+      @keyframes slidein {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      }
